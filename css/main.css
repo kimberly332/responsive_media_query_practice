@@ -49,23 +49,25 @@ body {
 @media screen and (min-width: 641px) {
 	/* boxes are equal width and display side by side */
 	.box1 {
+		display: block;
 		background-color: blue;
 		width: 15%;
 		flex-grow: 1;
 	}
 	.box2 {
+		display: block;
 		background-color: purple;
 		width: 15%;
 		flex-grow: 1;
 	}
 	.box3 {
-		display: unset;
+		display: block;
 		background-color: grey;
 		width: 15%;
 		flex-grow: 1;
 	}
 	.box4 {
-		display: unset;
+		display: block;
 		background-color: brown;
 		width: 15%;
 		flex-grow: 1;
